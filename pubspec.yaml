@@ -1,0 +1,87 @@
+name: flutter_app
+description: Base architecture
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  # Architecture
+  bloc_pattern: 2.1.9+3
+  rxdart: 0.22.0
+  # Logging
+  logging: ^0.11.3+2
+  # Persistence
+  jaguar_orm: 2.2.6
+  shared_preferences: ^0.5.2
+
+  # Api
+  retrofit: ^0.1.2
+  chopper: 2.3.0
+  jaguar_serializer: ^2.2.12
+
+  # Date Formatting
+  intl: 0.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: 1.1.3
+
+  # Generating Persistence
+  jaguar_orm_gen: 2.2.26
+  jaguar_query_sqflite: 2.2.9
+
+  # Generating Api
+  chopper_generator: 2.3.0
+  jaguar_serializer_cli: ^2.0.0
+
+dependecy_overrides:
+  build_runner: 1.4.0
+  jaguar_orm_gen: 2.2.27
+
+flutter:
+  uses-material-design: true
+#    assets:
+#      - assets/splash.jpg
+#      - assets/logout.png
+#      - assets/mock_user.png
+#      - assets/mock_coach.png
+#      - assets/laying.png
+#      - assets/questionnaire_start.png
+#      - assets/questionnaire_end.png
+#      - assets/icon_camera.png
+#      - assets/icon_user.png
+#      - assets/icon_plus.png
+#      - assets/icon_burger.png
+#      - assets/icon_mail.png
+#      - assets/icon_phone.png
+#      - assets/smiles/1.png
+#      - assets/smiles/1.gif
+#      - assets/smiles/2.png
+#      - assets/smiles/2.gif
+#      - assets/smiles/3.png
+#      - assets/smiles/3.gif
+#      - assets/smiles/4.png
+#      - assets/smiles/4.gif
+#      - assets/smiles/5.png
+#      - assets/smiles/5.gif
+#      - assets/situation_type/work.png
+#      - assets/situation_type/exercise.png
+#      - assets/situation_type/eating.png
+#      - assets/measurement_advice.png
+#      - assets/situation_type/relax.png
+#      - assets/help/help_1.png
+#      - assets/help/help_2.png
+#
+#    fonts:
+#      - family: Ubuntu
+#        fonts:
+#          - asset: assets/fonts/Ubuntu-Regular.ttf
+#          - asset: assets/fonts/Ubuntu-Light.ttf
+#            weight: 300
+#          - asset
